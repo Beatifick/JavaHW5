@@ -7,7 +7,7 @@ public class RestService {
         for (int month = 1; month < 13; month++) {
             if (money >= threshold) {
                 restMonth++;
-                money = (money - expenses)/3;
+                money = (money - expenses) / 3;
                 System.out.println("Отдых. Остаток денег в этом месяце с учетом трат = " + money);
             } else {
                 money = money + income - expenses;
